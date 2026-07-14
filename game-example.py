@@ -73,11 +73,11 @@ while running:
 
     # Collision check
     if player_rect.colliderect(enemy_rect):
-        print(f"Game Over! Final Score: {score}")
+        print(f"Game Over! You Scored: {score}")
         running = False
 
     # 3. Draw Everything
-    screen.fill(BLACK)  # Clear screen with black background
+    screen.fill(BLACK)  # Clear screen with BLACK background
 
     # Draw Player and Enemy
     pygame.draw.rect(screen, BLUE, player_rect)
