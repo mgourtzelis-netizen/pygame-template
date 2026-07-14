@@ -8,5 +8,5 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    screen.fill((0, 0, 0))  # Fill the screen with black
+    screen.fill((255, 0, 0))  # Fill the window with red
     pygame.display.flip()  # Update the display
